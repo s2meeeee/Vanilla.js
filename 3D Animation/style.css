@@ -90,7 +90,7 @@ body {
   /* bold : 굵은 굵기입니다. 숫자 700과 같습니다. */
   color: #585858;
 }
-button.active {
+.options button:hover {
   background-color: #585858;
   color: #fff;
 }
