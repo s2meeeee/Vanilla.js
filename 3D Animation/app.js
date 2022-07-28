@@ -33,7 +33,7 @@ container.addEventListener("mouseenter", (event) => {
 });
 
 // Animate Out
-container.addEventListener("mouseleave", (e) => {
+container.addEventListener("mouseleave", (event) => {
   card.style.transition = "all .3s ease";
   card.style.transform = `rotateY(0deg) rotateX(0deg)`;
 
